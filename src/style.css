@@ -1,0 +1,51 @@
+body {
+  width: 100%;
+}
+
+.main-heading {
+  font-size: 60px;
+}
+
+.main {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+
+.sub-heading {
+  font-size: 30px;
+}
+
+.container1-child {
+  display: flex;
+}
+
+.list-block {
+  border: 2px solid black;
+  padding-left: 3px;
+}
+
+.container-2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp-name {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border: 2px solid black;
+}
+
+.inp-score {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 8%;
+  border: 2px solid black;
+}
+
+.add-btn {
+  margin-top: 8%;
+  display: flex;
+  align-self: flex-end;
+}
