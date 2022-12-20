@@ -1,20 +1,20 @@
 import './style.css';
 import addNew from './modules/postData.js';
-import { showPlayerdata } from './modules/getData.js';
+import showPlayerdata from './modules/getData.js';
 
-//Add palyer data
+// Add palyer data
 const addBtn = document.querySelector('.add-btn');
 addBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    addNew();
+  e.preventDefault();
+  addNew();
 });
 
-//show data
+// show data
 showPlayerdata();
 
 // Show data
 const refreshBtn = document.querySelector('.refresh');
 refreshBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.location.reload();
+  e.preventDefault();
+  window.location.reload();
 });
