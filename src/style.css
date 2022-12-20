@@ -26,7 +26,7 @@ body {
   padding-left: 3px;
 }
 
-.container-2 form {
+.container-2 .form {
   display: flex;
   flex-direction: column;
 }
