@@ -5,7 +5,7 @@ const showData = (arr) => {
     listBlock.innerHTML = '<div class="empty-data">Nothing to show</div>';
   } else {
     result.forEach((x) => {
-      listBlock.innerHTML += `<p>${x.user}: ${x.score}</p>`;
+      listBlock.innerHTML += `<p class="data">${x.user}: ${x.score}</p>`;
     });
   }
 };

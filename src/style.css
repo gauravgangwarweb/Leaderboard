@@ -1,20 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 body {
-  width: 100%;
+  background-color: #15202b;
+}
+
+button {
+  background: orange;
 }
 
 .main-heading {
-  font-size: 60px;
+  font-size: 70px;
+  font-family: 'Rubik Vinyl', cursive;
+  text-align: center;
+  color: orange;
 }
 
 .main {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  gap: 15%;
+  width: 80%;
+  font-family: 'Nerko One', cursive;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  gap: 12%;
 }
 
 .sub-heading {
-  font-size: 30px;
+  width: 100%;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-heading button {
+  height: 25px;
+  display: flex;
+  align-self: center;
+  font-size: 12px;
+  padding-top: 3px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, rgb(51, 51, 51) 0 0 0 3px;
+}
+
+.sub-heading-2 {
+  width: 100%;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
 }
 
 .container1-child {
@@ -24,6 +55,11 @@ body {
 .list-block {
   border: 2px solid black;
   padding-left: 3px;
+  margin-bottom: 12%;
+  height: 250px;
+  color: red;
+  box-sizing: border-box;
+  overflow: auto;
 }
 
 .container-2 .form {
@@ -47,5 +83,27 @@ body {
 .add-btn {
   margin-top: 8%;
   display: flex;
-  align-self: flex-end;
+  align-self: center;
+  padding: 2% 6%;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, rgb(51, 51, 51) 0 0 0 3px;
+}
+
+.container-1,
+.container-2 {
+  background-color: rgba(255, 255, 255, 0.096);
+  backdrop-filter: blur(10px);
+  color: orange;
+  position: relative;
+}
+
+.block {
+  width: 80%;
+  margin: auto;
+}
+
+.data {
+  background: #15202b;
+  font-size: 20px;
+  padding-left: 5px;
 }
