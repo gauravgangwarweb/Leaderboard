@@ -1,9 +1,20 @@
 import './style.css';
+import addNew from './modules/postData.js';
+import showPlayerdata from './modules/getData.js';
 
-const scoreList = `<p>Name: 100</p>
-<p>Name: 20</p>
-<p>Name: 40</p>
-<p>Name: 50</p>
-<p>Name: 60</p>`;
+// Add palyer data
+const addBtn = document.querySelector('.add-btn');
+addBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  addNew();
+});
 
-document.querySelector('.list-block').innerHTML = scoreList;
+// show data
+showPlayerdata();
+
+// Show data
+const refreshBtn = document.querySelector('.refresh');
+refreshBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  window.location.reload();
+});
