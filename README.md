@@ -2,9 +2,6 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Leaderboard</b></h3>
 
 </div>
@@ -85,6 +82,17 @@ To run project, run the following command:
 👤 Gaurav Gangwar
 
 - GitHub: [@gauravgangwarweb](https://github.com/gauravgangwarweb)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Give some animations to button]**
+- [ ] **[Add some animations in design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
