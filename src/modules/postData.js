@@ -17,7 +17,6 @@ const addNew = async () => {
     },
     body: JSON.stringify(playerData),
   };
-  
   await fetch(url, prost).then((response) => response.json())
     .then((data) => {
       emptyBLock.innerHTML = `<p class="alert">${data.result}</p>`;
