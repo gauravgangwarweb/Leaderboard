@@ -46,7 +46,7 @@
 
 > Here is a link to the live demo.
 
-- [Live Demo Coming Soon]()
+- [Live Demo](https://gauravgangwarweb.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
