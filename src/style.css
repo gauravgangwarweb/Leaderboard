@@ -70,19 +70,22 @@ button {
 .inp-name {
   padding-top: 3%;
   padding-bottom: 3%;
+  padding-left: 2%;
   border: 2px solid black;
 }
 
 .inp-score {
   padding-top: 3%;
   padding-bottom: 3%;
+  padding-left: 2%;
   margin-top: 8%;
   border: 2px solid black;
 }
 
 .add-btn {
-  margin-top: 8%;
+  margin-top: 32%;
   display: flex;
+  position: fixed;
   align-self: center;
   padding: 2% 6%;
   font-size: 15px;
@@ -125,7 +128,6 @@ button {
   animation: frame-enter 1s forwards ease-in-out reverse, gradient-animation 4s ease-in-out infinite;
 }
 
-/* motion */
 @keyframes gradient-animation {
   0% {
     background-position: 15% 0%;
@@ -161,3 +163,42 @@ button {
     -webkit-clip-path: polygon(0% 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 0% 100%);
   }
 }
+
+.alert {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+
+.alert-2 {
+  text-align: center;
+  animation-name: moveInleft;
+  color: #00f260;
+  animation-duration: 3s;
+}
+
+@keyframes moveInleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 80%;
+  }
+} */
